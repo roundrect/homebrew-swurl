@@ -4,13 +4,13 @@
 every link you click in the browser and profile your rules choose, with a menu bar app and a `swurl` command.
 
 ```sh
+brew tap roundrect/swurl
+brew trust --cask roundrect/swurl/swurl     # Homebrew 7 loads no cask from a third-party tap until you trust it
 brew install --cask roundrect/swurl/swurl
 ```
 
-**Not released yet.** The cask is added here with Swurl's first release; until then the command above finds
-nothing.
-
-Requires macOS 15 (Sequoia) or later. The cask installs `Swurl.app` and links the `swurl` command-line tool.
+Requires macOS 15 (Sequoia) or later on a Mac with Apple silicon. The cask installs `Swurl.app` and links the `swurl` command-line tool. Swurl updates itself
+(Sparkle), so `brew upgrade` leaves an updated copy alone.
 
 ## Releasing a new version
 
