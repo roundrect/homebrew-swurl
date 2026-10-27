@@ -5,7 +5,7 @@ every link you click in the browser and profile your rules choose, with a menu b
 
 ```sh
 brew tap roundrect/swurl
-brew trust --cask roundrect/swurl/swurl     # Homebrew 7 loads no cask from a third-party tap until you trust it
+brew trust roundrect/swurl/swurl     # Homebrew 7 loads no cask from a third-party tap until you trust it
 brew install --cask roundrect/swurl/swurl
 ```
 
