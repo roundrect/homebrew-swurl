@@ -14,7 +14,7 @@ cask "swurl" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Swurl.app"
   binary "#{appdir}/Swurl.app/Contents/Resources/swurl"
